@@ -1,3 +1,134 @@
-html {
-  background: blue;
+// *{
+//   border: 1 px solid green;
+// }
+header {
+  background-image: url("../assets/logo.svg");
+  background-color: #F1F1F1;
+  padding: 28px; 
+  //background-position: center;
+  background-repeat: no-repeat;
+  //background-size: cover;
+  //text-align: center;
+  //margin: auto;
+  //max-width: 100%;
+  //width: fit-content;
+
+
 }
+
+#topNav {
+  overflow: hidden;
+  background-color: #333;  
+  padding: 5px;
+  //display: inline-block;
+  background-position: center;
+
+  text-align: center;
+
+}
+
+.button {
+  //float: left;
+  //color: #f2f2f2;
+  //text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Oswald', sans-serif;
+  color: grey; 
+   //background-position: center;
+
+
+}
+
+
+html,
+body {
+  box-sizing: border-box;
+  //width: fit-content;
+  display: block;
+  margin:  auto;
+}
+
+* {
+  box-sizing: inherit
+}
+
+html {
+  background-image: url("../assets/bg.jpg")
+}
+
+#mainContainer{
+  //padding: 8px;
+  //max-width: 700px;
+     //margin-top:44px;
+     margin:auto;
+    //  padding: 50px;
+    //  overflow:auto;
+}
+
+// #collectionId{
+// //   background-color: #F1F1F1;
+// //width: 800px;
+//  }
+
+.tilez {
+  background-color: #F1F1F1;
+  border: 1px solid black;
+  //text-align: center;
+  margin: 8px;
+  //margin-top: 10px;
+  //margin-left: 10px;
+  //max-width: 323px;
+  padding: 15px;
+  width: fit-content;
+  width: 360px;
+  height:375px;
+  //float: left;    
+  overflow:hidden;
+  font-family: 'Lato', sans-serif
+
+}
+
+.awwPost{
+  font-size: 18px;
+  //font-weight: 900;
+}
+
+.awwPic {
+  padding-right: 24px;
+  //text-align: center;
+  //display: inline block;
+  // width: 20rem;
+  // height: 12rem;
+  width: 350px;
+  height: 210px;
+}
+
+.awwAuthor{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+
+  //text-align: center;
+
+}
+
+.awwText{
+  margin-top: 8px;
+  font-size: 16px;
+
+}
+
+#footer {
+  //position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  // background-color: red;
+  // color: white;
+  text-align: center;
+  overflow: hidden;
+  background-color: #333;  
+  padding: 15px;
+}
+

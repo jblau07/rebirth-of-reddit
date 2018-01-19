@@ -1,2 +1,70 @@
+header {
+  background-image: url("../assets/logo.svg");
+  background-color: #F1F1F1;
+  padding: 28px;
+  background-repeat: no-repeat; }
+
+#topNav {
+  overflow: hidden;
+  background-color: #333;
+  padding: 5px;
+  background-position: center;
+  text-align: center; }
+
+.button {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Oswald', sans-serif;
+  color: grey; }
+
+html,
+body {
+  box-sizing: border-box;
+  display: block;
+  margin: auto; }
+
+* {
+  box-sizing: inherit; }
+
 html {
-  background: blue; }
+  background-image: url("../assets/bg.jpg"); }
+
+#mainContainer {
+  margin: auto; }
+
+.tilez {
+  background-color: #F1F1F1;
+  border: 1px solid black;
+  margin: 8px;
+  padding: 15px;
+  width: fit-content;
+  width: 360px;
+  height: 375px;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif; }
+
+.awwPost {
+  font-size: 18px; }
+
+.awwPic {
+  padding-right: 24px;
+  width: 350px;
+  height: 210px; }
+
+.awwAuthor {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px; }
+
+.awwText {
+  margin-top: 8px;
+  font-size: 16px; }
+
+#footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  background-color: #333;
+  padding: 15px; }
