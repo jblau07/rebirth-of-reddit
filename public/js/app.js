@@ -5,15 +5,18 @@ const finance = "https://www.reddit.com/r/personalfinance.json";
 
 const metal = "https://www.reddit.com/r/natureismetal.json";
 
+const randomReddit = ["https://www.reddit.com/r/Hawaii.json", "https://www.reddit.com/r/nba.json", "https://www.reddit.com/r/movies/.json", "https://www.reddit.com/r/OldSchoolCool.json"];
+
+let chooseRandom = randomReddit[Math.floor(Math.random() * randomReddit.length)];
 let random = document.createElement("a");
 random.href = "#";
 random.className = "button";
 random.id = "random";
 random.innerHTML = "RANDOM"
 document.getElementById("topNav").appendChild(random);
-// random.addEventListener("click", function(){
-//   getReddit("https://www.reddit.com/r/aww/.json");
-// })
+random.addEventListener("click", function(){
+getReddit(chooseRandom);
+})
 
 let myBoards = document.createElement("a");
 myBoards.href = "#";
@@ -66,7 +69,7 @@ function fillIn(redditInfo, parentElem) {
     postPic.setAttribute("src", element.data.url);
 
     postPic.onerror = function () {
-      postPic.src = "http://placekitten.com/400/250";
+      postPic.src = "http://lorempixel.com/350/210/";
     };
     tile.appendChild(postPic);
 
@@ -110,7 +113,7 @@ function fillIn(redditInfo, parentElem) {
     if (element.data.selftext !== "") {
       postText.innerHTML = element.data.selftext;
     } else {
-      postText.innerHTML = "No inner text."
+      postText.innerHTML = "This post has no text. Enjoy the picture!"
     }
     tile.appendChild(postText);
     collection.appendChild(tile);

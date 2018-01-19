@@ -54,7 +54,8 @@ html {
 
 .awwAuthor {
   color: rgba(0, 0, 0, 0.5);
-  font-size: 14px; }
+  font-size: 14px;
+  margin-top: 6px; }
 
 .awwText {
   margin-top: 8px;
@@ -67,4 +68,7 @@ html {
   text-align: center;
   overflow: hidden;
   background-color: #333;
-  padding: 15px; }
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-position: center left 45%, center right 45%;
+  background-image: url("../assets/facebook_grey.svg"), url("../assets/instagram_grey.svg"); }
